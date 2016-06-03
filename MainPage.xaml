@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="AllJoynApp3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AllJoynApp3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="235,164,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="240,306,0,0" VerticalAlignment="Top" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="240,471,0,0" VerticalAlignment="Top" Click="button2_Click"/>
+        <ToggleSwitch x:Name="toggleSwitch" Header="Lamp" HorizontalAlignment="Left" Margin="92,47,0,0" VerticalAlignment="Top" Toggled="toggleSwitch_Toggled"/>
+        <Slider Header =" Hue" x:Name="slider" HorizontalAlignment="Left" Margin="92,157,0,0" VerticalAlignment="Top" Width="100"/>
+        <Slider Header =" Saturation" x:Name="slider1" HorizontalAlignment="Left" Margin="92,306,0,0" VerticalAlignment="Top" Width="100"/>
+        <Slider Header =" Brightness" x:Name="slider2" HorizontalAlignment="Left" Margin="92,464,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Page>
